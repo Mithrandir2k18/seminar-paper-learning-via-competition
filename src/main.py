@@ -506,10 +506,10 @@ def agent_vs_mcts_search_time(player1: str = "VanillaMCTS",
 
 
 def main():
-    play_and_plot_outcomes(num_games=50)
+    # play_and_plot_outcomes(num_games=50)
     # play_and_plot_outcomes(agent_class=A0TinyAgent, prefix_folder="a0tiny/")
     # play_train_loop(agent_class=A0TinyAgent, prefix_folder="a0tiny/")
-    # play_train_loop(checkpoint_path="checkpoints/1610565004_final")
+    play_train_loop()
     # compare_best_checkpoints()
     # compare_checkpoints_multiprocessing()
     # agent_vs_mcts_search_time(prefix_folder="checkpoints/1611628670_final",
